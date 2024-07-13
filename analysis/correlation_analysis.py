@@ -62,3 +62,10 @@ def find_cointegrated_pairs(consolidated, non_self_dup):
     corr_coint = corr_coint[corr_coint.iloc[:, 2] > .7]
     print(corr_coint.tail())
     return corr_coint
+
+
+def get_sharpe(r,rfr=0.02):
+  if r.std():
+    return (r.mean()) / r.std() * np.sqrt(252)
+    # return (r.mean() - rfr) / r.std()
+  return 0

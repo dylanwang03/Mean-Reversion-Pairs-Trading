@@ -7,12 +7,7 @@
     cd PairsTradingAnalysis
     ```
 
-2. Install the required dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
-
-3. Run the main script:
+2. Run the main script:
     ```
     python main.py
     ```
