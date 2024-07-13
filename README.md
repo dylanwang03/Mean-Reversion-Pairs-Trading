@@ -30,6 +30,7 @@
 
 This repository provides an implementation of a mean reversion pairs trading algorithm using Python. Pairs trading is a quantitative trading strategy that involves exploiting the price divergence of two correlated assets by taking opposite positions when they deviate from their historical relationship.
 
+##
 
 Data Retrieval: Download historical price data for the two assets under consideration.
 Data Preprocessing: Clean, normalize, and align the data for analysis.
